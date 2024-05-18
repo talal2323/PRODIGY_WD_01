@@ -1,0 +1,383 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    /* height: 10%; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background-color 0.3s ease-out 0s, box-shadow 0.3s ease;
+    float: right;
+}
+
+.navbar-brand img {
+    height: 90px;
+    width: 150px;
+}
+
+.navbar.scrolled {
+    background-color: cadetblue !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7) !important;
+}
+
+.navbar.navbar-dark.scrolled .navbar-brand,
+.navbar.navbar-dark.scrolled .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar.navbar-dark.scrolled .navbar-toggler-icon {
+    background-color: #fff !important;
+}
+
+.nav-item {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #ffcc00;
+}
+
+.nav-item:hover::before {
+    width: 100%;
+}
+
+.content {
+    padding-top: 80px;
+}
+
+.start {
+    
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.start h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.start img {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: -10%;
+}
+
+.btn:hover {
+    background-color: #ffc600;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50%;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 30%;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.services {
+    margin-top: -60%;
+    color: gray;
+    text-align: center;
+}
+
+.services:hover {
+    cursor: auto;
+    color: black;
+    transition: 0.6s ease-in-out;
+}
+
+.about {
+    color: gray;
+    text-align: center;
+}
+
+.about:hover {
+    cursor: auto;
+    color: black;
+    transition: 0.6s ease-in-out;
+}
+
+.Contact:hover {
+    cursor: auto;
+    color: black;
+    transition: 0.6s ease-in-out;
+}
+
+.about-ct {
+    margin-bottom: 50%;
+}
+
+.about-info {
+    padding-right: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 10%;
+    margin-top: -45%;
+}
+
+.about {
+    margin-right: 83%;
+}
+
+* {
+    font-family: monospace;
+}
+
+.about-pic {
+    width: 70%;
+    height: 500px;
+    margin-left: 45%;
+}
+
+.product {
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: -70%;
+}
+
+.product:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.product-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product-details p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.product-details span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}               
+            
+            
+
+             .footer-dark {
+                padding:50px 0;
+                color:#f0f9ff;
+                background-color:#282d32;
+              }
+              
+              .footer-dark h3 {
+                margin-top:0;
+                margin-bottom:12px;
+                font-weight:bold;
+                font-size:16px;
+              }
+              
+              .footer-dark ul {
+                padding:0;
+                list-style:none;
+                line-height:1.6;
+                font-size:14px;
+                margin-bottom:0;
+              }
+              
+              .footer-dark ul a {
+                color:inherit;
+                text-decoration:none;
+                opacity:0.6;
+              }
+              
+              .footer-dark ul a:hover {
+                opacity:0.8;
+              }
+              
+              @media (max-width:767px) {
+                .footer-dark .item:not(.social) {
+                  text-align:center;
+                  padding-bottom:20px;
+                }
+              }
+              
+              .footer-dark .item.text {
+                margin-bottom:36px;
+              }
+              
+              @media (max-width:767px) {
+                .footer-dark .item.text {
+                  margin-bottom:0;
+                }
+              }
+              
+              .footer-dark .item.text p {
+                opacity:0.6;
+                margin-bottom:0;
+              }
+              
+              .footer-dark .item.social {
+                text-align:center;
+              }
+              
+              @media (max-width:991px) {
+                .footer-dark .item.social {
+                  text-align:center;
+                  margin-top:20px;
+                }
+              }
+              
+              .footer-dark .item.social > a {
+                font-size:20px;
+                width:36px;
+                height:36px;
+                line-height:36px;
+                display:inline-block;
+                text-align:center;
+                border-radius:50%;
+                box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+                margin:0 8px;
+                color:#fff;
+                opacity:0.75;
+              }
+              
+              .footer-dark .item.social > a:hover {
+                opacity:0.9;
+              }
+              
+              .footer-dark .copyright {
+                text-align:center;
+                padding-top:24px;
+                opacity:0.3;
+                font-size:13px;
+                margin-bottom:0;
+              }
+     
+              body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+    
+            .slider {
+                overflow: hidden;
+                width: 100%;
+                height: 100vh; /* Set to full viewport height */
+                position: relative;
+            }
+    
+            .slides {
+                display: flex;
+                transition: transform 0.8s ease-in-out;
+                width: 300%; /* Set to 300% of the slider width */
+            }
+    
+            .slide {
+                flex: 0 0 33.33%; /* Set to 33.33% to fit three slides in one row */
+                width: 100%;
+            }
+    
+            .slide img {
+                width: 100%; /* Make sure images cover the full width */
+                height: 60%;
+                object-fit: cover;
+            }
+    
+            
+    
+            .nav-btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 30px;
+                height: 30px;
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 50%;
+                text-align: center;
+                line-height: 30px;
+                font-size: 20px;
+                color: black;
+                cursor: pointer;
+            }
+    
+            .nav-btn.left {
+                left: 20px;
+            }
+    
+            .nav-btn.right {
+                right: 20px;
+            }
+
+            /* Styles for the back to top button */
+#backToTopBtn {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s, opacity 0.5s;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #555;
+  }
+  

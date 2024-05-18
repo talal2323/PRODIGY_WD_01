@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="task 1.css">
+    <link rel="icon" href="logo t.jpg">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="task 1.js"></script>
+
+    <script src="https://kit.fontawesome.com/9e96a1212c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo t.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <section class="start text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br><br>
+                    <h1>Travel Solutions</h1>
+                    <img src="home bg.png" alt="">
+                    <br>
+                    <a href="#services" class="btn btn-primary">Book now</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <br><br><br><br><br>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="slider 1.jpg" alt=""></div>
+            <div class="slide"><img src="slider 2.jpg" alt=""></div>
+            <div class="slide"><img src="slider 3.jpg" alt=""></div>
+        </div>
+        <a href="#" class="toggle-btn" id="toggleBtn"></a>
+        <div class="nav-btn left" id="prevBtn">&lt;</div>
+        <div class="nav-btn right" id="nextBtn">&gt;</div>
+    </div>
+
+    <section class="about-ct">
+        <div class="container">
+            <br><br><br><br><br>
+            <h1 id="about" class="about">About Us</h1>
+            <br> <br>
+            <img class="about-pic" src="about pic.png" alt="">
+            <p class="about-info"> Welcome to Travel Solutions, your gateway to extraordinary adventures and unforgettable experiences around the globe. <br> <br> At Travel Solutions, we're more than just a travel agency – we're passionate storytellers, dedicated to crafting journeys that inspire, delight, and create lifelong memories. With a team of seasoned travelers and industry experts, we've made it our mission to turn your travel dreams into reality. <br> <br> Whether you're embarking on a solo expedition, a romantic getaway, a family vacation, or a group adventure, let Travel Solutions be your trusted companion on the road less traveled. Let's explore the world together, one unforgettable journey at a time. <br><br> Join us, and let the adventure begin. <br><br> Travel Solutions – Where Every Journey Tells a Story. </p>
+        </div>
+    </section>
+
+    <section class="services-ct">
+        <div class="container">
+            <br><br><br><br>
+            <h1 id="services" class="services">Services</h1>
+            <div class="features mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature text-center">
+                            <h2>Dubai</h2>
+                            <div class="product">
+                                <img src="Dubai.png" alt="Product Image">
+                                <div class="product-details">
+                                    <h3>Dubai 7 Days Tour</h3>
+                                    <p>"Experience the opulence and enchantment of Dubai on a tour filled with futuristic skyscrapers, luxurious shopping, and desert adventures."</p>
+                                    <span> Only In $1099</span>
+                                    <a href="#services" class="btn btn-primary">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature text-center">
+                            <h2>Singapore</h2>
+                            <div class="product">
+                                <img src="Singapore.png" alt="Product Image">
+                                <div class="product-details">
+                                    <h3>Singapore 4 Days Tour</h3>
+                                    <p>"Discover the diverse wonders of Singapore, where urban sophistication, cultural richness, and natural beauty converge in a captivating blend."</p>
+                                    <span> Only In $999</span>
+                                    <a href="#services" class="btn btn-primary">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature text-center">
+                            <h2>Maldives</h2>
+                            <div class="product">
+                                <img src="Maldives.png" alt="Product Image">
+                                <div class="product-details">
+                                    <h3>Maldives 5 Days Tour</h3>
+                                    <p>""Indulge in pure paradise on a Maldives tour, where pristine beaches, crystal-clear waters, and overwater bungalows create the ultimate luxury escape.""</p>
+                                    <span> Only In $1299</span>
+                                    <a href="#services" class="btn btn-primary">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="contact" class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h1 class="Contact" >Contact US</h1>
+                        <br><br>
+                        <h3>SERVICES</h3>
+                        <h6>Tours:</h6>
+                        <ul>
+                            <li><a href="#services">Dubai</a></li>
+                            <li><a href="#services">Singapore</a><li>
+                            <li><a href="#services">Maldives</a></li>
+                            <br>
+                            <p>More Tours Coming Soon...</p>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <br><br><br><br>
+                        <h3>ABOUT</h3>
+                        <ul>
+                            <li><a href="#about">Company</a></li>
+                            <li><a href="#about">Team</a></li>
+                            <li><a href="#about">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <br><br><br><br>
+                        <h3>Travel Solutions</h3>
+                        <p>"Embark on your next adventure with us and create memories that last a lifetime. Travel the world, explore new horizons, and let every journey be a story worth sharing."</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon fa fa-facebook"></i></a>
+                        <a href="#"><i class="icon fa fa-twitter"></i></a>
+                        
+                        <a href="#"><i class="icon fa fa-linkedin"></i></a>
+                        
+                        <a href="#"><i class="icon fa fa-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Travel Solutions © 2018</p>
+            </div>
+        </footer>
+
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top">&#x2191;</button>
+
+    </div>
+    
+</body>
+</html>
